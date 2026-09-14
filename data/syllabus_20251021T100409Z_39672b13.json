@@ -1,0 +1,82 @@
+{
+  "assessment": {
+    "grading_method": "RAG-based rubric (keywords, logic, frameworks)",
+    "type": "Essay (mock)"
+  },
+  "institution": "Unpad",
+  "parts": [
+    {
+      "key_points_summary": "This module covers fundamental economic theories including microeconometric time series regression, macroeconomic supply and demand, GDP and GDP per capita, and introduces the concept of digital infrastructure as public goods.",
+      "learning_objectives": [
+        "Understand basic microeconomic principles.",
+        "Grasp macroeconomic concepts like GDP and supply-demand.",
+        "Define and analyze the digital economy."
+      ],
+      "part_index": 1,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Foundations of Economic Analysis"
+    },
+    {
+      "key_points_summary": "Exploration of microeconometric techniques (time series, regression) applied to the digital economy. Focus on supply, demand, GDP, GDP per capita within the context of digital infrastructure and public goods.",
+      "learning_objectives": [
+        "Apply microeconomic models to digital markets.",
+        "Analyze digital pricing strategies.",
+        "Assess the impact of network effects."
+      ],
+      "part_index": 2,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Microeconomic Principles in the Digital Sphere"
+    },
+    {
+      "key_points_summary": "In this part we are going to evaluate microeconometrics, macro and digital economy.",
+      "learning_objectives": [
+        "Interpret macroeconomic data in a digital context.",
+        "Evaluate the influence of technology on GDP.",
+        "Examine digital monetary policy."
+      ],
+      "part_index": 3,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Macroeconomic Indicators and the Digital Economy"
+    },
+    {
+      "key_points_summary": "Analysis on Microeconometrics, Macroeconomics and Digital Economy.",
+      "learning_objectives": [
+        "Explain the importance of digital infrastructure.",
+        "Analyze the provision of digital public goods.",
+        "Discuss policies for digital inclusion."
+      ],
+      "part_index": 4,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Digital Infrastructure and Public Goods"
+    },
+    {
+      "key_points_summary": "This will focus on Microeconometrics, Macroeconomics and Digital Economy.",
+      "learning_objectives": [
+        "Assess the role of innovation in digital growth.",
+        "Examine the impact of digital technologies on labor markets.",
+        "Consider the future of the digital economy."
+      ],
+      "part_index": 5,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Digital Transformation and Economic Growth"
+    }
+  ],
+  "parts_count": 5,
+  "references": [
+    "www.google.com",
+    "www.google.com",
+    "www.google.com",
+    "www.google.com"
+  ],
+  "title": "Economics in the Digital Age"
+}

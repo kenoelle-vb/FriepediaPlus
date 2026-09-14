@@ -1,0 +1,82 @@
+{
+  "assessment": {
+    "grading_method": "RAG-based rubric (keywords, logic, frameworks)",
+    "type": "Essay (mock)"
+  },
+  "institution": "Unpad",
+  "parts": [
+    {
+      "key_points_summary": "- Microeconometrics : Time Series, Regression \r\n- Macroeconomics : Supply Demand, GDP, GDP Per Capita \r\n- Digital Economy : Digital Infrastructure, Public Goods",
+      "learning_objectives": [
+        "Understand basic microeconomic concepts (supply and demand).",
+        "Grasp macroeconomic indicators like GDP and GDP per capita.",
+        "Define the fundamental building blocks of the digital economy."
+      ],
+      "part_index": 1,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Core Economic Principles"
+    },
+    {
+      "key_points_summary": "- Microeconometrics : Time Series, Regression \r\n- Macroeconomics : Supply Demand, GDP, GDP Per Capita \r\n- Digital Economy : Digital Infrastructure, Public Goods",
+      "learning_objectives": [
+        "Apply time series analysis in microeconometrics.",
+        "Utilize regression analysis for economic modeling.",
+        "Analyze supply and demand dynamics in various markets."
+      ],
+      "part_index": 2,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Microeconomic Foundations"
+    },
+    {
+      "key_points_summary": "- Microeconometrics : Time Series, Regression \r\n- Macroeconomics : Supply Demand, GDP, GDP Per Capita \r\n- Digital Economy : Digital Infrastructure, Public Goods",
+      "learning_objectives": [
+        "Calculate and interpret GDP and GDP per capita.",
+        "Understand the factors influencing supply and demand at a macroeconomic level.",
+        "Assess macroeconomic trends using econometric tools."
+      ],
+      "part_index": 3,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Macroeconomic Indicators and Analysis"
+    },
+    {
+      "key_points_summary": "- Microeconometrics : Time Series, Regression \r\n- Macroeconomics : Supply Demand, GDP, GDP Per Capita \r\n- Digital Economy : Digital Infrastructure, Public Goods",
+      "learning_objectives": [
+        "Define digital infrastructure and its components.",
+        "Analyze the role of digital infrastructure in economic growth.",
+        "Explore the concept of digital public goods."
+      ],
+      "part_index": 4,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Digital Infrastructure"
+    },
+    {
+      "key_points_summary": "- Microeconometrics : Time Series, Regression \r\n- Macroeconomics : Supply Demand, GDP, GDP Per Capita \r\n- Digital Economy : Digital Infrastructure, Public Goods",
+      "learning_objectives": [
+        "Understand the characteristics of digital public goods.",
+        "Assess the impact of digital public goods on the digital economy.",
+        "Apply econometric techniques to analyze the digital economy."
+      ],
+      "part_index": 5,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Digital Public Goods and the Economy"
+    }
+  ],
+  "parts_count": 5,
+  "references": [
+    "www.google.com",
+    "www.google.com",
+    "www.google.com",
+    "www.google.com"
+  ],
+  "title": "Introduction to Economics and the Digital Economy"
+}

@@ -1,0 +1,80 @@
+{
+  "assessment": {
+    "grading_method": "RAG-based rubric (keywords, logic, frameworks)",
+    "type": "Essay (mock)"
+  },
+  "institution": "Unpad",
+  "parts": [
+    {
+      "key_points_summary": "Introduction to basic economic concepts, including scarcity, opportunity cost, micro and macroeconomics.",
+      "learning_objectives": [
+        "Define economics and its core principles.",
+        "Distinguish between microeconomics and macroeconomics.",
+        "Understand the concepts of scarcity, opportunity cost, and trade-offs."
+      ],
+      "part_index": 1,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Foundations of Economics"
+    },
+    {
+      "key_points_summary": "Detailed study of supply, demand, and market equilibrium. Elasticity concepts are also included.",
+      "learning_objectives": [
+        "Explain the laws of supply and demand.",
+        "Analyze factors that shift supply and demand curves.",
+        "Determine equilibrium price and quantity in a market."
+      ],
+      "part_index": 2,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Supply and Demand"
+    },
+    {
+      "key_points_summary": "Exploration of various market structures and their impact on firms' behavior and market outcomes.",
+      "learning_objectives": [
+        "Identify different market structures (perfect competition, monopoly, oligopoly, monopolistic competition).",
+        "Analyze the characteristics and behavior of firms in each market structure.",
+        "Evaluate the efficiency and welfare implications of different market structures."
+      ],
+      "part_index": 3,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Market Structures"
+    },
+    {
+      "key_points_summary": "An overview of macroeconomic indicators and their significance in understanding the economy.",
+      "learning_objectives": [
+        "Define and measure key macroeconomic indicators (GDP, inflation, unemployment).",
+        "Understand the relationship between these indicators.",
+        "Analyze the causes and consequences of macroeconomic fluctuations."
+      ],
+      "part_index": 4,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Macroeconomic Indicators"
+    },
+    {
+      "key_points_summary": "Explanation of monetary and fiscal policies and their effects on economic stability.",
+      "learning_objectives": [
+        "Explain the role of monetary policy in stabilizing the economy.",
+        "Analyze the tools and effectiveness of fiscal policy.",
+        "Evaluate the challenges of macroeconomic policymaking."
+      ],
+      "part_index": 5,
+      "suggested_readings": [
+        "www.google.com"
+      ],
+      "title": "Monetary and Fiscal Policy"
+    }
+  ],
+  "parts_count": 5,
+  "references": [
+    "www.google.com",
+    "www.google.com"
+  ],
+  "title": "Introduction to Economic Principles"
+}

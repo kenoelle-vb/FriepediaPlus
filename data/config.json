@@ -1,0 +1,9 @@
+{
+  "images_dir": "C:/Users/keno/OneDrive/Documents/Projects/Friepedia+/IMAGES",
+  "resize": {
+    "enabled": true,
+    "card_width": 640,
+    "card_height": 360,
+    "card_out_dir": "C:/Users/keno/OneDrive/Documents/Projects/Friepedia+/IMAGES"
+  }
+}

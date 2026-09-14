@@ -1,0 +1,85 @@
+{
+  "assessment": {
+    "grading_method": "RAG-based rubric (keywords, logic, frameworks)",
+    "type": "Essay (mock)"
+  },
+  "institution": "Unpad",
+  "parts": [
+    {
+      "key_points_summary": "This module introduces core economic concepts like scarcity, supply & demand, specialization, and GDP, forming the foundation for understanding macroeconomic principles.",
+      "learning_objectives": [
+        "Define and explain the concept of scarcity and its implications.",
+        "Describe the principles of supply and demand and their interaction in markets.",
+        "Illustrate the benefits of specialization in production.",
+        "Understand the basic definition and measurement of Gross Domestic Product (GDP)."
+      ],
+      "part_index": 1,
+      "suggested_readings": [
+        "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+      ],
+      "title": "Fundamental Economic Concepts"
+    },
+    {
+      "key_points_summary": "We delve deeper into understanding how scarcity drives economic choices, how supply and demand influence pricing and market equilibrium and the importance of specialization in boosting productivity.",
+      "learning_objectives": [
+        "Analyze the impact of scarcity on economic decision-making.",
+        "Apply supply and demand analysis to real-world scenarios.",
+        "Evaluate the role of specialization in increasing productivity.",
+        "Discuss the limitations of GDP as a measure of economic well-being."
+      ],
+      "part_index": 2,
+      "suggested_readings": [
+        "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+      ],
+      "title": "Scarcity, Supply and Demand, and Specialization"
+    },
+    {
+      "key_points_summary": "This module focuses on measuring and interpreting economic activity through GDP, differentiating between nominal and real values and understanding GDP's components.",
+      "learning_objectives": [
+        "Calculate and interpret GDP using different approaches.",
+        "Differentiate between nominal and real GDP.",
+        "Explain the components of GDP and their contributions to economic growth.",
+        "Analyze the relationship between GDP and other macroeconomic indicators."
+      ],
+      "part_index": 3,
+      "suggested_readings": [
+        "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+      ],
+      "title": "GDP and Economic Activity"
+    },
+    {
+      "key_points_summary": "This explores topics in scarcity and S&D, and is applicable to more advanced topics.",
+      "learning_objectives": [
+        "Understand the impact of externalities",
+        "Understand elasticity",
+        "Understand different market structures",
+        "Analyze the application to trade"
+      ],
+      "part_index": 4,
+      "suggested_readings": [
+        "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+      ],
+      "title": "Advanced Concepts of Scarcity, Supply, Demand, and Specialization"
+    },
+    {
+      "key_points_summary": "This module focuses on measuring and interpreting economic activity through GDP, differentiating between nominal and real values and understanding GDP's components.",
+      "learning_objectives": [
+        "Analyze GDP",
+        "Explain the components of GDP and their contributions to economic growth.",
+        "Analyze the relationship between GDP and other macroeconomic indicators."
+      ],
+      "part_index": 5,
+      "suggested_readings": [
+        "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+      ],
+      "title": "GDP and Macroeconomics"
+    }
+  ],
+  "parts_count": 5,
+  "references": [
+    "https://www.bu.edu/econ/files/2014/08/DLS1.pdf",
+    "https://www.bu.edu/econ/files/2014/08/DLS1.pdf",
+    "https://www.bu.edu/econ/files/2014/08/DLS1.pdf"
+  ],
+  "title": "Introduction to Macroeconomics"
+}
