@@ -1,0 +1,28 @@
+{% extends "base.htm" %}
+
+{% block content %}
+  <div class="header">
+    <h2>Essay Test — {{ course.title }}</h2>
+    <span class="chip">Assessment • RAG-based</span>
+  </div>
+
+  <div class="panel" style="padding:22px;">
+    <p class="muted" style="margin-top:0;">
+      This is a mock Essay Test. Answers are graded using a RAG-based AI rubric that searches for
+      <em>keywords</em>, <em>logical structure</em>, and <em>frameworks</em>. Since it’s an essay,
+      multiple choice tricks won’t help — understanding is required.
+    </p>
+
+    <form method="post" style="margin-top:16px;">
+      <div class="field">
+        <label for="essay_text">Your Essay</label>
+        <textarea class="textarea" id="essay_text" name="essay_text" rows="10"
+                  placeholder="Write your response here. Explain key concepts, show reasoning and apply a framework."></textarea>
+      </div>
+      <div style="margin-top:14px; display:flex; gap:10px;">
+        <button class="btn" type="submit">Submit Quiz</button>
+        <a class="btn ghost" href="{{ url_for('course_detail', course_id=course.id) }}">Back to Course</a>
+      </div>
+    </form>
+  </div>
+{% endblock %}

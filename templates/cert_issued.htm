@@ -1,0 +1,21 @@
+{% extends "base.htm" %}
+
+{% block content %}
+
+  <div class="header">
+    <h2>Certificate Issued</h2>
+    <span class="chip">Credibility • Hash</span>
+  </div>
+  <div class="panel" style="padding:22px;">
+    <p>Congratulations! You’ve completed: <strong>{{ course.title }}</strong></p>
+    <p>Certificate Hash:</p>
+    <div class="panel" style="padding:14px; background:rgba(16,185,129,0.08); border-color:rgba(16,185,129,0.18);">
+      <code style="font-family:ui-monospace, SFMono-Regular, Menlo, monospace; color:#86efac;">{{ cert_hash }}</code>
+    </div>
+    <p class="muted" style="margin-top:10px;">Recruiters can verify this hash against an anchored registry (mocked in this prototype).</p>
+    <div style="margin-top:16px; display:flex; gap:10px;">
+      <a class="btn" href="{{ url_for('profile') }}">Go to Profile</a>
+      <a class="btn ghost" href="{{ url_for('courses_list') }}">Back to Courses</a>
+    </div>
+  </div>
+{% endblock %}

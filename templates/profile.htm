@@ -1,0 +1,47 @@
+{% extends "base.htm" %}
+
+{% block content %}
+
+  <div class="header">
+    <h2>Profile</h2>
+    <span class="chip">Your Learning • 5</span>
+  </div>
+  <div class="panel" style="padding:24px;">
+    <div class="grid cols-2">
+      <div>
+        <h3 style="margin:0 0 6px 0;">{{ user.name }}</h3>
+        <p class="muted" style="margin:0 0 8px 0;">Grade: {{ user.grade }}</p>
+        <p class="muted">Courses Completed: {{ user.completed }}</p>
+
+        {% if user.completed > 0 %}
+          <div style="margin-top:12px;">
+            <a class="btn" href="{{ url_for('certificates_all') }}" target="_blank">Open All Certificates (PDF)</a>
+            <p class="muted" style="margin-top:6px;">Opens one PDF that merges all of your certificates.</p>
+          </div>
+        {% endif %}
+      </div>
+
+      <div>
+        <h3 style="margin:0 0 6px 0;">Certificates</h3>
+        {% if user.certificates %}
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px;">
+            {% for c in user.certificates %}
+              <li class="panel" style="padding:12px; display:flex; justify-content:space-between; align-items:center;">
+                <div style="display:flex; flex-direction:column;">
+                  <span style="font-weight:600;">{{ c }}</span>
+                  <span class="muted" style="font-size:12px;">Stored in /data</span>
+                </div>
+                <div style="display:flex; gap:10px;">
+                  <!-- Each 'Open' goes to the merged PDF as requested -->
+                  <a class="btn" href="{{ url_for('certificates_all') }}" target="_blank">Open</a>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="muted">No certificates yet. Complete a course to mint your first hash-backed certificate.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

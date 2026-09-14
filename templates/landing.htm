@@ -1,0 +1,18 @@
+{% extends "base.htm" %}
+
+{% block content %}
+
+  <div class="header">
+    <h2>Landing</h2>
+    <span class="chip">Default Page • 1</span>
+  </div>
+  <div class="panel" style="padding:28px;">
+    <h1 style="margin:0 0 8px 0; font-size:34px;">Welcome to Friepedia+</h1>
+    <p class="muted" style="font-size:16px;">Evidence-First Learning. Verifiable. Incentivized.</p>
+    <div style="margin-top:22px; display:flex; gap:12px;">
+      <a class="btn" href="{{ url_for('courses_list') }}">Explore Courses</a>
+      <a class="btn secondary" href="{{ url_for('create') }}">Create a Course</a>
+      <a class="btn ghost" href="{{ url_for('dashboard') }}">See Global Funds</a>
+    </div>
+  </div>
+{% endblock %}

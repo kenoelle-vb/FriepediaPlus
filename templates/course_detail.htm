@@ -1,0 +1,31 @@
+{% extends "base.htm" %}
+
+{% block content %}
+  <div class="header">
+    <h2>{{ course.title }}</h2>
+    <span class="chip">Sub DOM • Course View</span>
+  </div>
+  <div class="panel" style="padding:22px;">
+    <p class="muted" style="margin-top:0;">{{ course.description }}</p>
+    
+    <h3 style="margin:12px 0;">Syllabus (Example)</h3>
+    <div class="panel" style="padding:0; overflow:hidden;">
+      <!-- The syllabus_html variable contains the pandas DataFrame rendered as an HTML table -->
+      {{ syllabus_html|safe }}
+    </div>
+
+    <!-- Actions: keep "Complete Course" (hash-only path) AND add "Solve Quiz" (essay → certificate image + hash) -->
+    <div style="margin-top:18px; display:flex; gap:10px; align-items:center;">
+      <!-- Link to essay quiz flow -->
+      <a class="btn" href="{{ url_for('course_quiz', course_id=course.id) }}">Solve Quiz</a>
+      <span class="muted">Go to the essay test (mock) graded by a RAG-based rubric.</span>
+    </div>
+
+    <form method="post" style="margin-top:14px;">
+      <button class="btn ghost" type="submit">Complete Course</button>
+      <span class="muted" style="margin-left:10px;">
+        Click to mint a certificate hash directly (no quiz).
+      </span>
+    </form>
+  </div>
+{% endblock %}
